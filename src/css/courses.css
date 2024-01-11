@@ -1,0 +1,75 @@
+.courses-section{
+    background-color: #121212;
+}
+
+
+.courses-title{
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+}
+
+.courses-span{
+    color: #BEA69E;
+}
+
+.courses-text{
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+}
+
+.courses-list-item{
+    padding: 28px;
+    width: 335px;
+
+    background-image: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+}
+
+.courses-list-number{
+    color: rgba(255, 255, 255, 0.40);
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+}
+
+.courses-icon-box{
+    background-color: #1D1D1D;
+
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-list-icon{
+    stroke: #777777;
+}
+
+.courses-list-title{
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        /* 114.286% */
+}
