@@ -1,6 +1,10 @@
-.courses-section{
-}
 
+.container.courses-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .courses-title{
     color: #FFF;
@@ -8,10 +12,29 @@
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: -0.04em;
+
+        margin-bottom: 20px;
 }
 
 .courses-span{
     color: #BEA69E;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-title {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+
+        margin-right: 58px;
+
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+ .courses-title {
+    margin-right: 410px;
+  }
 }
 
 .courses-text{
@@ -20,32 +43,95 @@
         font-weight: 400;
         line-height: 1.28;
         letter-spacing: -0.02em;
+
+        max-width: 335px;
+        margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .courses-text {
+        font-size: 16px;
+        line-height: 1.25;
+
+        max-width: 381px;
+        margin-bottom: 0;
+  }
+
+  .courses-title-text-box{
+    display: flex;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-text{
+    max-width: 405px;
+}
+}  
+
 .courses-list{
- list-style-type: none; 
+ list-style-type: none;
+ margin: 0; 
+ padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+.courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
 
 .courses-list-item{
     padding: 28px;
-    width: 335px;
+    max-width: 335px;
+    height: 398px;
 
     background-image: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
 
+    position: relative;
+
 }
 
-.courses-list-number{
-    color: rgba(255, 255, 255, 0.40);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 1.28;
-        letter-spacing: -0.02em;
+.courses-list-item:not(:last-child){
+ margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+.courses-list-item {
+    padding: 32px;
+    max-width: 342px;
+    height: 452px;
+    
+  }
+
+  .courses-list-item:not(:last-child){
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-list-item {
+    max-width: 347px;
+    height: 452px;
+  }
+}
+
 
 .courses-icon-box{
     background-color: #1D1D1D;
+    stroke: #777777;
 
     border-radius: 50%;
     width: 32px;
@@ -54,11 +140,49 @@
 
     display: flex;
     justify-content: center;
-    align-items: center;
+
+
+    position: absolute;
+    top: 28px;
+    right: 28px;
+
+    
 }
 
-.courses-list-icon{
-    stroke: #777777;
+.courses-icon-box:hover{
+    background-color: #BEA69E;
+    stroke: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+.courses-icon-box {
+    top: 32px;
+    right: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-icon-box:focus {
+        background-color: #BEA69E;
+        stroke: #FFFFFF;
+    }
+}
+
+
+.courses-list-number{
+    color: rgba(255, 255, 255, 0.40);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+
+        margin-bottom: 42px;
+}
+
+@media only screen and (min-width:768px) {
+.courses-list-number{
+    margin-bottom: 46px;
+  }
 }
 
 .courses-list-title{
@@ -66,13 +190,45 @@
         font-size: 28px;
         font-weight: 500;
         line-height: 1.14;
+
+        margin-bottom: 164px;
+        max-width: 279px;
 }
+
+.courses-list-title:nth-child(3){
+    max-width: 268px;
+}
+
+@media only screen and (min-width: 768px) {
+.courses-list-title {
+    margin-bottom: 180px;
+    max-width: 265px;
+  }
+}
+
+
 
 .courses-list-text{
     color: rgba(255, 255, 255, 0.50);
         font-size: 14px;
         font-weight: 400;
         line-height: 1.28;
-        /* 128.571% */
         letter-spacing: -0.02em;
+
+        max-width: 279px;
+}
+
+@media only screen and (min-width: 768px) {
+.courses-list-text {
+        font-size: 16px;
+        line-height: 1.25;
+
+        max-width: 278px;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-list-text{
+    max-width: 283px;
+  }
 }
