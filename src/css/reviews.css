@@ -1,0 +1,102 @@
+.reviews {
+  padding-bottom: 150px;
+}
+
+.reviews-items-item {
+  display: flex;
+  /* flex-direction: column; */
+  margin-bottom: 20px;
+}
+
+.card-head {
+  display: flex;
+  margin-bottom: 4px;
+}
+.reviews-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -1.12px;
+}
+.reviews-items {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 335px;
+}
+@media screen and (min-width: 1280px) {
+  .reviews-items {
+    width: calc((100% - 20px) / 2);
+  }
+}
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .desktop {
+    display: block;
+  }
+}
+.reviews-image {
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 56px;
+  width: 56px;
+}
+.reviews-name {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+.reveiews-student-name {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
+.reveiews-name-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.24px;
+}
+.reviews-rank {
+  display: flex;
+  gap: 4px;
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-rank {
+    margin-left: auto;
+  }
+}
+.reviews-star {
+  fill: #bea69e;
+}
+.reviews-star-none {
+  fill: #414141;
+}
+.reviews-description {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+.reviews-card {
+  display: flex;
+  gap: 20px;
+}
+
+.hmm {
+  display: flex;
+  flex-direction: column;
+}
