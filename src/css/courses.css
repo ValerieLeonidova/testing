@@ -16,9 +16,6 @@
         margin-bottom: 20px;
 }
 
-.courses-span{
-    color: #BEA69E;
-}
 
 @media only screen and (min-width: 768px) {
   .courses-title {
@@ -92,7 +89,7 @@
 
 .courses-list-item{
     padding: 28px;
-    width: 335px;
+    width: 100%;
     min-height: 398px;
 
     background-image: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
